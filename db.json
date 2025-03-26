@@ -5,7 +5,7 @@
       "title": "hello KKK"
     }
   ],
-  "app": {
+  "dummy_curation": {
   "curationIdList": "[1,2,3,4,5]",
   "lastId": "5",
   "curationList": [
