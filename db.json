@@ -5,7 +5,75 @@
       "title": "hello KKK"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "app": {
+  "curationIdList": "[1,2,3,4,5]",
+  "lastId": "5",
+  "curationList": [
+    {
+      "curationId": "curation01",
+      "curationType": "01",
+      "curationTypeDetail": "01",
+      "seq": 1,
+      "title": "curation01 Title",
+      "subTitle": "curation01 subTitle",
+      "ctaTitle": "curation01 ctaTitle",
+      "ctaLink": "starbuckskr://deeplink?main=SIREN_ORDER",
+      "skuList": [
+        {
+          "categoryCode": "X0000001",
+          "categoryType": "D",
+          "seq": 1,
+          "skuNo": "$skuNo",
+          "skuName": "$skuName",
+          "engSkuName": "$engSkuName",
+          "delegateSku": "$delegateSku",
+          "skuImgUrl": "$skuImgUrl",
+          "saleYn": "$saleYn",
+          "price": "$price",
+          "hotYn": "$hotYn"
+        }
+      ],
+      "recentOrderMenuList": [
+        {
+          "skuNo": "$skuNo",
+          "skuName": "$skuName",
+          "engSkuName": "$engSkuName",
+          "delegateSku": "$delegateSku",
+          "skuImgUrl": "$skuImgUrl",
+          "categoryType": "$categoryType",
+          "myMenuYn": "$myMenuYn",
+          "favoriteNo": "$favoriteNo",
+          "saleYn": "$saleYn",
+          "price": "$price",
+          "hotYn": "$hotYn",
+          "cupType": "$cupType",
+          "cupTypeName": "$cupTypeName",
+          "size": "$size",
+          "sizeName": "$sizeName",
+          "menuType": "$menuType",
+          "saleQty": "$saleQty",
+          "saleQtyMsg": "$saleQtyMsg",
+          "extractEquipmentCode": "$extractEquipmentCode",
+          "extractEquipmentName": "$extractEquipmentName",
+          "customList": [
+            {
+              "skuNo": "$skuNo",
+              "skuName": "$skuName",
+              "categoryCode": "$categoryCode",
+              "topCategoryCode": "$topCategoryCode",
+              "realCustomQty": "$realCustomQty",
+              "stdRecipeFlag": "$stdRecipeFlag",
+              "applyType2": "$applyType2",
+              "payType": "$payType",
+              "baseQty": "$baseQty",
+              "price": "$price",
+              "modPrice": "$modPrice",
+              "markingSeq": "$markingSeq"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 }
